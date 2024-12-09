@@ -1,5 +1,6 @@
-## LaunchPad in fair launch
+## LamboV1
 
+LamboV1 is a Pump.fun liked Meme LaunchPad/
 
 ### Project Requirements
 
