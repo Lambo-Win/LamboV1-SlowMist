@@ -13,14 +13,14 @@ Meme LaunchPad, where anyone can deploy their own tokens for a LaunchPad issuanc
 
 4. The overall design is a multi-modular Modular LaunchPad, with a multi-factory -> pool -> router architecture that supports the addition of any LaunchPad curve in the future.
 
-5. The internal platform fee will only be charged in ETH/USDT/USDi (base tokens), so the final amount received will be less than 3.5 ETH (as some will be transferred to the Vault as fees).
+5. The internal platform fee will only be charged in ETH/USDT/USDi (base tokens), so the final amount received will be less than 4.2 ETH (as some will be transferred to the Vault as fees).
 
-6. After the liquidity crowdfunding is completed, the administrator needs to trigger the migration to perform the liquidity migration.
+6. After the liquidity crowdfunding is completed, the admin will trigger the migration to perform the liquidity migration.
 
 ### Contract Architecture
 The overall contract adopts a multi-factory -> pool -> router architecture:
 
-[![Contract Architecture]("https://github.com/infini-money/Infini-Money-Playground/blob/main/Infini-LanuchPad/pic/framework.png")]()
+[![Contract Architecture]("https://github.com/Lambo-Win/LamboV1-SlowMist/tree/main/pic/framework.png")]()
 
 1. Factory: Used to create LaunchPools.
 
