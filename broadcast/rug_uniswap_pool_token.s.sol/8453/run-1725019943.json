@@ -1,0 +1,86 @@
+{
+  "transactions": [
+    {
+      "hash": "0x14907fc161a1e46bc9da2d563e56fad1ce268b7897746db772524aa1bc1ad49d",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x83fa9f613ded26baf7feff7d46f128a806d79c30",
+      "function": "claimTokensFor(address,address,uint256)",
+      "arguments": [
+        "0x1D1e94634FBcB767ce8650269B2c4d33280f0130",
+        "0xA54149306Cd0e593a981B3735600B497500B66cA",
+        "0"
+      ],
+      "transaction": {
+        "from": "0x1d1e94634fbcb767ce8650269b2c4d33280f0130",
+        "to": "0x83fa9f613ded26baf7feff7d46f128a806d79c30",
+        "gas": "0xc800",
+        "value": "0x0",
+        "input": "0x3f3c75550000000000000000000000001d1e94634fbcb767ce8650269b2c4d33280f0130000000000000000000000000a54149306cd0e593a981b3735600b497500b66ca0000000000000000000000000000000000000000000000000000000000000000",
+        "nonce": "0x113",
+        "chainId": "0x2105"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0xde6cc8",
+      "logs": [
+        {
+          "address": "0xa54149306cd0e593a981b3735600b497500b66ca",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x00000000000000000000000083fa9f613ded26baf7feff7d46f128a806d79c30",
+            "0x0000000000000000000000001d1e94634fbcb767ce8650269b2c4d33280f0130"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "blockHash": "0xcba82d2e8861c9830776b04248ec9114692042d828327e54a19c3683c74138e6",
+          "blockNumber": "0x123ad1f",
+          "transactionHash": "0x14907fc161a1e46bc9da2d563e56fad1ce268b7897746db772524aa1bc1ad49d",
+          "transactionIndex": "0x7b",
+          "logIndex": "0x121",
+          "removed": false
+        },
+        {
+          "address": "0x83fa9f613ded26baf7feff7d46f128a806d79c30",
+          "topics": [
+            "0x74961ba99ab7b954d0e6ac1d1d718f21ddfe3cb2e19bf91d3de61eda54786a91"
+          ],
+          "data": "0x0000000000000000000000001d1e94634fbcb767ce8650269b2c4d33280f0130000000000000000000000000a54149306cd0e593a981b3735600b497500b66ca0000000000000000000000000000000000000000000000000000000000000000",
+          "blockHash": "0xcba82d2e8861c9830776b04248ec9114692042d828327e54a19c3683c74138e6",
+          "blockNumber": "0x123ad1f",
+          "transactionHash": "0x14907fc161a1e46bc9da2d563e56fad1ce268b7897746db772524aa1bc1ad49d",
+          "transactionIndex": "0x7b",
+          "logIndex": "0x122",
+          "removed": false
+        }
+      ],
+      "logsBloom": "0x000000000000000000000000000200000000000040040004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002080000000000000000000000000000000000002000000000000000000000000000000008000000000000000002000000100000000004000000000000000000000000004000000000000000000c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000002002002000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x14907fc161a1e46bc9da2d563e56fad1ce268b7897746db772524aa1bc1ad49d",
+      "transactionIndex": "0x7b",
+      "blockHash": "0xcba82d2e8861c9830776b04248ec9114692042d828327e54a19c3683c74138e6",
+      "blockNumber": "0x123ad1f",
+      "gasUsed": "0x88c1",
+      "effectiveGasPrice": "0x3ad5ef",
+      "from": "0x1d1e94634fbcb767ce8650269b2c4d33280f0130",
+      "to": "0x83fa9f613ded26baf7feff7d46f128a806d79c30",
+      "contractAddress": null,
+      "l1BaseFeeScalar": "0x8dd",
+      "l1BlobBaseFee": "0x1",
+      "l1BlobBaseFeeScalar": "0x101c12",
+      "l1Fee": "0x10b75a5c0",
+      "l1GasPrice": "0x46680e2b",
+      "l1GasUsed": "0x68a"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1725019943,
+  "chain": 8453,
+  "commit": "6975ba7"
+}
